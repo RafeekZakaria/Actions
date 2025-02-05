@@ -1,3 +1,3 @@
-test('empty test', () => {
+test('Frontend placeholder test', () => {
   expect(true).toBe(true);
 });
