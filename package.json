@@ -1,5 +1,5 @@
 {
-  "name": "your-project-name",
+  "name": "test",
   "version": "1.0.0",
   "scripts": {
     "test": "jest"
@@ -9,6 +9,10 @@
     "ts-jest": "^29.0.0",
     "typescript": "^4.0.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "jest": {
+    "testTimeout": 10000,
+    "maxWorkers": 2,
+    "silent": true
   }
 }
